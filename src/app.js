@@ -1,5 +1,5 @@
-function esTest() {
-	let name = "Justin";
+function printName(name="Justin") {
 	console.log(name);
 }
-esTest();
+printName();
+printName("Paco");
